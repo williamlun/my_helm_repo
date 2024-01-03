@@ -8,7 +8,7 @@ image:
   repository: hello-world
   pullPolicy: IfNotPresent
   # Overrides the image tag whose default is the chart appVersion.
-  tag: ""
+  tag: "latest"
 
 imagePullSecrets: []
 nameOverride: ""
@@ -19,7 +19,7 @@ env:
   CHIRPSTACK_MQTT_PORT: ""
   CHIRPSTACK_MQTT_USERNAME: ""
   CHIRPSTACK_MQTT_PASSWORD: ""  
-  CHIRPSTACK_MQTT_SHARED_GROUP_ID: ""
+  CHIRPSTACK_MQTT_SHARED_GROUP_ID: "" 
   THINGSBOARD_MQTT_HOST: ""
   THINGSBOARD_MQTT_PORT: ""
   THINGSBOARD_MQTT_USERNAME: ""

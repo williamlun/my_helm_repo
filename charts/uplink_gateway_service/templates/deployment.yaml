@@ -42,7 +42,7 @@ spec:
               protocol: TCP
           resources:
             {{- toYaml .Values.resources | nindent 12 }}
-          nev:
+          env:
             - name: CHIRPSTACK_MQTT_HOST
               value: {{ .Values.env.CHIRPSTACK_MQTT_HOST }}
             - name: CHIRPSTACK_MQTT_PORT
