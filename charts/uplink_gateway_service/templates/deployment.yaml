@@ -59,7 +59,6 @@ spec:
               value: {{ .Values.env.THINGSBOARD_MQTT_PORT | quote }}
             - name: THINGSBOARD_MQTT_USERNAME
               value: {{ .Values.env.THINGSBOARD_MQTT_USERNAME }}
-              
           {{- with .Values.volumeMounts }}
           volumeMounts:
             {{- toYaml . | nindent 12 }}
