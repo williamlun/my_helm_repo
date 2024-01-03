@@ -1,0 +1,14 @@
+apiVersion: v1
+entries:
+  uplink-gateway-service-pipeline:
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2024-01-03T16:37:45.313901-05:00"
+    description: A Helm chart for Kubernetes
+    digest: 896f00e25b8a0fbaa1f0d186bdd666c158e9ca76ba804d7d18e8e1a2faf41b30
+    name: uplink-gateway-service-pipeline
+    type: application
+    urls:
+    - https://github.com/williamlun/my_helm_repo.git/uplink-gateway-service-pipeline-0.1.0.tgz
+    version: 0.1.0
+generated: "2024-01-03T16:37:45.312515-05:00"
