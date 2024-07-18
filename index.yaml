@@ -9,7 +9,7 @@ entries:
     name: fastapi-monitor-demo
     type: application
     urls:
-    - https://williamlun.github.io/my_helm_repo/fastapi-monitor-demo-0.1.0.tgz
+    - https://williamlun.github.io/my_helm_repo/charts/fastapi-monitor-demo-0.1.0.tgz
     version: 0.1.0
   uplink-gateway-service-pipeline:
   - apiVersion: v2
@@ -20,6 +20,6 @@ entries:
     name: uplink-gateway-service-pipeline
     type: application
     urls:
-    - https://williamlun.github.io/my_helm_repo/uplink-gateway-service-pipeline-0.1.0.tgz
+    - https://williamlun.github.io/my_helm_repo/charts/uplink-gateway-service-pipeline-0.1.0.tgz
     version: 0.1.0
 generated: "2024-07-18T01:15:13.84483-04:00"
