@@ -1,9 +1,20 @@
 apiVersion: v1
 entries:
+  fastapi-monitor-demo:
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2024-07-18T01:15:13.845706-04:00"
+    description: A Helm chart for Kubernetes
+    digest: 49685cd2c7f266d2248471e2b1f67c8a9bacb46e9d21be1a9c77b25b86e2719e
+    name: fastapi-monitor-demo
+    type: application
+    urls:
+    - https://williamlun.github.io/my_helm_repo/fastapi-monitor-demo-0.1.0.tgz
+    version: 0.1.0
   uplink-gateway-service-pipeline:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2024-01-03T17:44:54.809023-05:00"
+    created: "2024-07-18T01:15:13.846064-04:00"
     description: A Helm chart for Kubernetes
     digest: 6e60d1dbc64259f437a1a85145f180e6f3edbf54115b23db6345ee181525089f
     name: uplink-gateway-service-pipeline
@@ -11,4 +22,4 @@ entries:
     urls:
     - https://williamlun.github.io/my_helm_repo/uplink-gateway-service-pipeline-0.1.0.tgz
     version: 0.1.0
-generated: "2024-01-03T17:44:54.807724-05:00"
+generated: "2024-07-18T01:15:13.84483-04:00"
